@@ -1,0 +1,35 @@
+Nonlinear mixed-effects model fit by maximum likelihood
+  Model: size ~ A + B * (1 - exp(-(Time - 100)/C)) 
+  Data: Sitka 
+       AIC       BIC  logLik
+  -96.2868 -60.47683 57.1434
+
+Random effects:
+ Formula: list(A ~ 1, B ~ 1)
+ Level: tree
+ Structure: General positive-definite, Log-Cholesky parametrization
+              StdDev    Corr  
+A.(Intercept) 0.8355691 A.(In)
+B.(Intercept) 0.8195245 -0.69 
+Residual      0.1029752       
+
+Fixed effects:  list(A ~ treat, B ~ treat, C ~ 1) 
+                 Value Std.Error  DF   t-value p-value
+A.(Intercept)  2.30293  0.199555 312 11.540342  0.0000
+A.treatozone   0.17498  0.211706 312  0.826511  0.4091
+B.(Intercept)  3.92149  0.180824 312 21.686764  0.0000
+B.treatozone  -0.56455  0.215628 312 -2.618149  0.0093
+C             81.71854  4.721586 312 17.307436  0.0000
+ Correlation: 
+              A.(In) A.trtz B.(In) B.trtz
+A.treatozone  -0.754                     
+B.(Intercept) -0.699  0.593              
+B.treatozone   0.527 -0.715 -0.818       
+C              0.484 -0.066 -0.169  0.020
+
+Standardized Within-Group Residuals:
+        Min          Q1         Med          Q3         Max 
+-2.76151401 -0.40944269 -0.03358547  0.49269003  4.10572991 
+
+Number of Observations: 395
+Number of Groups: 79 
