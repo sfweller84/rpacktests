@@ -1,0 +1,9 @@
+Call:
+survdiff(formula = Surv(bmt$T2, bmt$d3) ~ bmt$g, data = bmt)
+
+         N Observed Expected (O-E)^2/E (O-E)^2/V
+bmt$g=1 38       24     21.9     0.211     0.289
+bmt$g=2 54       25     40.0     5.604    11.012
+bmt$g=3 45       34     21.2     7.756    10.529
+
+ Chisq= 13.8  on 2 degrees of freedom, p= 0.001 
