@@ -1,0 +1,5 @@
+ [1] add1.glm*                   addterm.glm*                anova.glm*                  coerce,oldClass,S3-method   confint.glm*                cooks.distance.glm*         deviance.glm*               drop1.glm*                  dropterm.glm*              
+[10] effects.glm*                extractAIC.glm*             family.glm*                 formula.glm*                gamma.shape.glm*            influence.glm*              initialize,oldClass-method  logLik.glm*                 model.frame.glm*           
+[19] nobs.glm*                   predict.glm                 print.glm*                  profile.glm*                residuals.glm               rstandard.glm*              rstudent.glm*               show,oldClass-method        sigma.glm*                 
+[28] slotsFromS3,oldClass-method summary.glm                 vcov.glm*                   weights.glm*                yates_setup.glm*           
+see '?methods' for accessing help and source code
