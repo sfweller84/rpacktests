@@ -1,0 +1,16 @@
+
+Call: rlm(formula = Ozone ~ Solar.R + Wind + Temp + Month, data = airquality)
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-32.7480 -12.0708  -0.4232  11.0183 104.8692 
+
+Coefficients:
+            Value    Std. Error t value 
+(Intercept) -71.1000  20.2203    -3.5163
+Solar.R       0.0384   0.0206     1.8581
+Wind         -2.6074   0.5685    -4.5867
+Temp          1.9414   0.2409     8.0600
+Month        -2.9107   1.3344    -2.1813
+
+Residual standard error: 16.94 on 106 degrees of freedom
+  (42 observations deleted due to missingness)
