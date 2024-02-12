@@ -1,0 +1,9 @@
+Package: rpacktests
+Version: 1.0.0
+Date: 2024-02-12
+Title: A test suite to test R packages
+Authors@R: c(person("Stephen", "Weller", "stevefw@comcast.net", role = c("aut", "cre")))
+Depends: R (>= 3.5.0), MASS, Matrix, boot, class, cluster, foreign, mgcv, nlme, rpart, spatial, survival, utils, nnet
+Encoding: UTF-8
+License: GPL (>=2)
+
