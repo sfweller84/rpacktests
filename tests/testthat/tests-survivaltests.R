@@ -1,4 +1,3 @@
-test_that("Test survdiff model results", 'survfit', 
-{
-  expect_equal(bmt.sdiff, system.file("expdata", "bmtsdiff.out"))
+test_that("Test survdiff model results", {
+  expect_equal(mysurvdiff(), dget(paste(getwd(), "/../../expdata/bmtsdiff.out", sep="")))
 })

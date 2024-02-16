@@ -1,5 +1,4 @@
-test_that("Test variance components of gam model", 'vcomp_calc,
-  {
-    expect_equal(gamvcomp, system.file("expdata", "mgcvgamvcomp.out"))
+test_that("Test variance components of gam model", {
+    expect_equal(vcomp_calc(), dget(paste(getwd(), "/../../expdata/mgcvgamvcomp.out", sep="")))
   })
 

@@ -1,4 +1,3 @@
-test_that("Test methods output for glm object", 'methodscheck',
-{
-  expect_equal(glmmethodsout, system.file("expdata", "glmmethods.out"))
+test_that("Test methods output for glm object", {
+  expect_equal(methodscheck(), dget(paste(getwd(), "/../../expdata/glmmethods.out", sep="")))
 })

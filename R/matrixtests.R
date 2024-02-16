@@ -12,5 +12,5 @@ matrix_calcs <- function(byrow=TRUE) {
     M2 <- rbind(0, M2, 0)
     M2[1:2,2] <- M2[3,4:5] <- NA
     sM <- as(M2, "sparseMatrix")
-    return(mmult, matsolve, sM)
+    return(c(list(mmult = mmult, matsolve = matsolve, sM = sM)))
 }

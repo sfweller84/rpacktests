@@ -1,3 +1,6 @@
- [1] s s s s s s s s s s s s s s s s s s s s s s s s s c c v c c c c c v c c c c
-[39] c c c c c c c c c c c c v c c v v v v v v v v v v c v v v v v v v v v v v
-Levels: c s v
+structure(c(2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 
+2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 2L, 1L, 1L, 3L, 1L, 
+1L, 1L, 1L, 1L, 3L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 1L, 
+1L, 1L, 1L, 1L, 1L, 3L, 1L, 1L, 3L, 3L, 3L, 3L, 3L, 1L, 3L, 3L, 
+3L, 3L, 1L, 3L, 3L, 3L, 3L, 3L, 3L, 3L, 3L, 3L, 3L, 3L), levels = c("c", 
+"s", "v"), class = "factor")

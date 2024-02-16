@@ -1,5 +1,38 @@
- [1] add1.glm*                   addterm.glm*                anova.glm*                  coerce,oldClass,S3-method   confint.glm*                cooks.distance.glm*         deviance.glm*               drop1.glm*                  dropterm.glm*              
-[10] effects.glm*                extractAIC.glm*             family.glm*                 formula.glm*                gamma.shape.glm*            influence.glm*              initialize,oldClass-method  logLik.glm*                 model.frame.glm*           
-[19] nobs.glm*                   predict.glm                 print.glm*                  profile.glm*                residuals.glm               rstandard.glm*              rstudent.glm*               show,oldClass-method        sigma.glm*                 
-[28] slotsFromS3,oldClass-method summary.glm                 vcov.glm*                   weights.glm*                yates_setup.glm*           
-see '?methods' for accessing help and source code
+structure(c("add1.glm", "addterm.glm", "anova.glm", "coerce,oldClass,S3-method", 
+"confint.glm", "cooks.distance.glm", "deviance.glm", "drop1.glm", 
+"dropterm.glm", "effects.glm", "extractAIC.glm", "family.glm", 
+"formula.glm", "gamma.shape.glm", "influence.glm", "initialize,oldClass-method", 
+"logLik.glm", "model.frame.glm", "nobs.glm", "predict.glm", "print.glm", 
+"profile.glm", "residuals.glm", "rstandard.glm", "rstudent.glm", 
+"show,oldClass-method", "sigma.glm", "slotsFromS3,oldClass-method", 
+"summary.glm", "vcov.glm", "weights.glm"), info = structure(list(
+    visible = c(FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 
+    FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, 
+    FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, TRUE, FALSE, FALSE, 
+    TRUE, FALSE, TRUE, TRUE, FALSE, FALSE), from = c("registered S3method", 
+    "registered S3method", "registered S3method", "", "registered S3method", 
+    "registered S3method", "registered S3method", "registered S3method", 
+    "registered S3method", "registered S3method", "registered S3method", 
+    "registered S3method", "registered S3method", "registered S3method", 
+    "registered S3method", "", "registered S3method", "registered S3method", 
+    "registered S3method", "stats", "registered S3method", "registered S3method", 
+    "stats", "registered S3method", "registered S3method", "", 
+    "registered S3method", "", "stats", "registered S3method", 
+    "registered S3method"), generic = c("add1", "addterm", "anova", 
+    "coerce", "confint", "cooks.distance", "deviance", "drop1", 
+    "dropterm", "effects", "extractAIC", "family", "formula", 
+    "gamma.shape", "influence", "initialize", "logLik", "model.frame", 
+    "nobs", "predict", "print", "profile", "residuals", "rstandard", 
+    "rstudent", "show", "sigma", "slotsFromS3", "summary", "vcov", 
+    "weights"), isS4 = c(FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, 
+    FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, 
+    TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, 
+    FALSE, TRUE, FALSE, TRUE, FALSE, FALSE, FALSE)), row.names = c("add1.glm", 
+"addterm.glm", "anova.glm", "coerce,oldClass,S3-method", "confint.glm", 
+"cooks.distance.glm", "deviance.glm", "drop1.glm", "dropterm.glm", 
+"effects.glm", "extractAIC.glm", "family.glm", "formula.glm", 
+"gamma.shape.glm", "influence.glm", "initialize,oldClass-method", 
+"logLik.glm", "model.frame.glm", "nobs.glm", "predict.glm", "print.glm", 
+"profile.glm", "residuals.glm", "rstandard.glm", "rstudent.glm", 
+"show,oldClass-method", "sigma.glm", "slotsFromS3,oldClass-method", 
+"summary.glm", "vcov.glm", "weights.glm"), class = "data.frame"), byclass = TRUE, class = "MethodsFunction")
