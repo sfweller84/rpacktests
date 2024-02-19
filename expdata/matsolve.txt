@@ -1,5 +1,0 @@
-3 x 1 Matrix of class "dgeMatrix"
-     [,1]
-[1,]    2
-[2,]    1
-[3,]    3

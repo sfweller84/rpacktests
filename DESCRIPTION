@@ -5,7 +5,7 @@ Title: A test suite to test R packages
 Author: c(person("Stephen", "Weller", "stevefw@comcast.net", role = c("aut", "cre")))
 Description: Contains R functions to test the basic functionality of a list of R packages.
              Uses the testthat package. Can be used to test a specific build of R.
-Depends: R (>= 3.5.0), MASS, Matrix, boot, class, cluster, foreign, mgcv, nlme, rpart, spatial, survival, utils, nnet, mclust
+Depends: R (>= 3.5.0), MASS, Matrix, boot, class, cluster, foreign, mgcv, nlme, rpart, spatial, survival, utils, nnet, mclust, KernSmooth
 Encoding: UTF-8
 License: GPL (>=2)
 Maintainer: Stephen Welle <stevefw@comcast.net>

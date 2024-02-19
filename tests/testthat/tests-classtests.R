@@ -1,6 +1,5 @@
-test_that("Test K nearest Neighbors classification", 'knncheck',
-{
-   expect_equal(irisknn.cl, system.file("expdata", "classknnres.out"))
+test_that("Test K nearest Neighbors classification", {
+   expect_equal(knncheck(), dget(paste(getwd(), "/../../expdata/classknnres.out", sep="")))
 })
 
 
