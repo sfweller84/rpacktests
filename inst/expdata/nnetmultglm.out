@@ -1,0 +1,12 @@
+
+Call:  glm(formula = low ~ ., family = "binomial", data = bwt)
+
+Coefficients:
+(Intercept)          age          lwt    raceblack    raceother    smokeTRUE  
+    0.82302     -0.03723     -0.01565      1.19241      0.74068      0.75553  
+    ptdTRUE       htTRUE       uiTRUE         ftv1        ftv2+  
+    1.34376      1.91317      0.68020     -0.43638      0.17901  
+
+Degrees of Freedom: 188 Total (i.e. Null);  178 Residual
+Null Deviance:	    234.7 
+Residual Deviance: 195.5 	AIC: 217.5

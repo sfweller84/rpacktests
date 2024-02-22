@@ -1,5 +1,5 @@
 test_that("Test nlme model results", {
-    expect_equal(nlmefit(), dget(paste(getwd(), "/../../expdata/nlmeresult.out", sep="")))
+    expect_equal(nlmefit(), dget(paste(.libPaths(), "/rpacktests/expdata/nlmeresult.out", sep="")))
   })
 
 

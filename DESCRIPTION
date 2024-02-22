@@ -8,4 +8,4 @@ Description: Contains R functions to test the basic functionality of a list of R
 Depends: R (>= 3.5.0), MASS, Matrix, boot, class, cluster, foreign, mgcv, nlme, rpart, spatial, survival, utils, nnet, mclust, KernSmooth
 Encoding: UTF-8
 License: GPL (>=2)
-Maintainer: Stephen Welle <stevefw@comcast.net>
+Maintainer: Stephen Weller <stevefw@comcast.net>

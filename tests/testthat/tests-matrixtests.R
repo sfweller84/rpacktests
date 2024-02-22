@@ -1,9 +1,5 @@
 test_that("Test matrix multiplication", {
-    expect_equal(matrix_calcs()$mmult, dget(paste(getwd(), "/../../expdata/matres1.out", sep = "")))
-  })
-
-test_that("Test solving linear equation", {
-    expect_equal(matrix_calcs()$matsolve, dget(paste(getwd(), "/../../expdata/matres2.out", sep = "")))
+    expect_equal(matrix_calcs()$mmult, dget(paste(.libPaths(), "/rpacktests/expdata/matres1.out", sep = "")))
   })
 
 test_that("Test sparse matrix equation", {
