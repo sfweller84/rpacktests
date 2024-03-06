@@ -5,5 +5,5 @@ check_cairo <- function()
    check.name <- "Cairo"
    value1 <- check.name %in% dllnames
    value2 <- is.loaded("Cairo_get_serial")
-   return(value1, value2)
+   return(c(list(value1 = value1, value2 = value2)))
 }

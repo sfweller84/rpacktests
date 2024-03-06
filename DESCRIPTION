@@ -1,6 +1,6 @@
 Package: rpacktests
-Version: 1.0.0
-Date: 2024-02-12
+Version: 1.1.0
+Date: 2024-03-06
 Title: A test suite to test R packages
 Author: c(person("Stephen", "Weller", "stevefw@comcast.net", role = c("aut", "cre")))
 Description: Contains R functions to test the basic functionality of a list of R packages.
